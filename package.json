@@ -1,7 +1,7 @@
 {
-  "name": "luizaklushkina",
+  "name": "forta-agent-starter",
   "version": "0.0.1",
-  "description": "Forta Blacklisted Address agent",
+  "description": "Forta Agent Typescript starter project",
   "scripts": {
     "build": "tsc",
     "start": "npm run start:dev",
@@ -12,13 +12,15 @@
     "range": "npm run build && forta-agent run --range",
     "file": "npm run build && forta-agent run --file",
     "publish": "forta-agent publish",
+    "push": "forta-agent push",
     "disable": "forta-agent disable",
     "enable": "forta-agent enable",
+    "keyfile": "forta-agent keyfile",
     "test": "jest"
   },
   "dependencies": {
     "bignumber.js": "^9.0.1",
-    "forta-agent": "^0.0.23"
+    "forta-agent": "^0.0.35"
   },
   "devDependencies": {
     "@types/jest": "^27.0.1",

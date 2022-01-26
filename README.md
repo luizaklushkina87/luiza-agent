@@ -1,5 +1,4 @@
-Please add me as a Agent Developer [Published] on Discord, my username is Luizak#6831.
-# Blacklisted Address Agent
+# High Gas Agent
 
 ## Description
 
